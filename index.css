@@ -1,0 +1,306 @@
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    /* navigation menu  */
+    #navbar {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        margin: -9px -8px;
+    }
+    #navbar::before {
+
+        content: "";
+        background-color: #000000e6;
+        position: absolute;
+        height: 110%;
+        width: 100%;
+        /* z-index: se hmara content background color ke upr aa jayga */
+        z-index: -1;
+        opacity: 0.7;
+    
+    
+    }
+  
+
+    #logo img {
+
+        margin: 3px 2px;
+        height: 51px;
+        width: 84px;
+    }
+
+    #navbar ul {
+        display: flex;
+
+    }
+
+    #navbar ul li {
+        font-family: 'Baloo Bhai 2', cursive;
+        list-style:none;
+        font-size: 17px;
+        /* color: white; */
+
+    }
+
+    #navbar ul li a {
+        padding: 12px 25px;
+        color: whitesmoke;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    #navbar ul li a:hover {
+        color: black;
+        background-color: white;
+    }
+
+    #home {
+        font-family: 'Baloo Bhai 2', cursive;
+        height: 630px;
+        display: flex;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #home::before {
+        content: "";
+        background: url(../food/view-tasty-food-composition.jpg) no-repeat center center/cover;
+        position: absolute;
+        height: 101%;
+        width: 100%;
+
+
+        /* z-index: se hmara content background color ke upr aa jayga */
+        z-index: -1;
+        opacity: 1;
+    }
+
+    /* utility class */
+
+
+    .h-primary {
+        font-family: 'Baloo Bhai 2', cursive;
+        text-align: center;
+        font-size: 2.9rem;
+        font-weight: bold;
+
+    }
+
+    .h-secondary {
+        font-family: 'Baloo Bhai 2', cursive;
+        font-size: 2.4rem;
+        font-weight: bold;
+    }
+
+    #home p {
+        font-family: 'Baloo Bhai 2', cursive;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+
+    .btn {
+        padding: 8px 8px;
+        margin: 12px;
+        border: 2px solid black;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 1.1rem;
+        font-weight: bold;
+        font-family: 'Baloo Bhai 2', cursive;
+
+    }
+
+    .btn a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .btn:hover{
+        background-color: brown;
+    }
+
+
+    #services {
+        display: flex;
+       
+        font-family: 'Baloo Bhai 2', cursive;
+        
+    }
+
+    #services .box {
+        border: 2px solid red;
+        padding: 12px 3px;
+        margin: 1px 5px;
+        border-radius: 40px;
+        background-color: rgba(145, 158, 219, 0.877);
+    }
+
+    #services .box img {
+        height: 150px;
+        width: 180px;
+        display: block;
+        margin: auto;
+    }
+
+    #services .box p {
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+
+    .centre {
+        text-align: center;
+    }
+
+
+    #clients-section {
+        height: 100px;
+    }
+
+    #clients-section::before {
+        content: "";
+        background: url(../food/harvest-3679075.jpg) no-repeat center center/cover;
+        z-index: -1;
+        position: absolute;
+        opacity: 0.7;
+        width: 100%;
+        height: 77%;
+
+    }
+
+    #clients {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .clients-item ul  {
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 18%;
+
+    }
+    .clients-item ul li{
+        padding: 10px 20px;
+        margin: 5px 20px;
+        list-style: none;
+      
+        
+    }
+    .clients-item ul li a{
+        text-decoration: none;
+    }
+  
+
+    .clients-item .fa{
+        padding: 8px 15px;
+        font-size: 76px;
+        width: 65px;
+        text-align: center;
+     
+        border-radius: 40%;
+       }
+    .fa:hover{
+        zoom: 130%;
+    }
+     .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      .fa-apple{
+          background: white;
+          color: black;
+      }
+      .fa-instagram{
+          background: white;
+          color: rgb(224, 17, 145);
+      }
+      .fa-linkedin{
+          color:rgb(6, 83, 170);
+          background: white
+      }
+      .fa-twitter{
+          color: white;
+          background: blue;
+      }
+   
+
+    #contact-section {
+        margin-top: 400px;
+        margin-bottom: 100px;
+
+    }
+
+
+    #contact-section::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: url(../food/phone\ call.jpg) no-repeat center center/cover;
+        z-index: -1;
+        opacity: 0.7;
+        margin-top: 74px;
+
+    }
+ 
+
+    #contact-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 40px;
+        font-family: 'Baloo Bhai 2', cursive;
+        height: 420px;
+        font-size: 20px;
+
+    }
+
+    #contact-box textarea {
+        padding: 15px 5px;
+        width: 100%;
+        border-radius: 10px;
+        border: 2px solid black;
+        margin: 7px 7px;
+
+    }
+
+    #contact-box button {
+        padding: 5px;
+        margin: 7px 7px;
+        width: 100%;
+        border-radius: 10px;
+        border: 2px solid black;
+        cursor: pointer;
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+
+    #contact-box form label {
+        font-weight: bold;
+    }
+
+
+    .form-group input {
+
+        margin: 7px 7px;
+        padding: 6px 8px;
+        border-radius: 10px;
+        border: 2px solid black;
+    }
+
+    footer {
+        font-size: 17px;
+        font-family: 'Baloo Bhai 2', cursive;
+        background-color: black;
+        color: white;
+        padding: 10px 11px;
+        width: 100%;
+    }
