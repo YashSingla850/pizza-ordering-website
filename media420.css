@@ -1,0 +1,24 @@
+*{
+    text-align: center;
+}
+
+
+body #navbar ul li a{
+    padding: 2px 2px;
+    font-size: 6px;
+    margin: 2px 3px;
+}
+
+body #services .box img{
+    overflow: hidden;
+    width: 85%;
+}
+body #services .box h2{
+   font-size: 16px;
+}
+body #services .box p{
+   font-size: 13px;
+}
+body #clients-section ul{
+    margin-top: 29%;
+}
